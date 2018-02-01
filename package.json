@@ -1,7 +1,7 @@
 {
-  "name": "bitcore-message",
-  "version": "1.0.4",
-  "description": "Bitcoin Messages for Bitcore",
+  "name": "btq-bitcore-message",
+  "version": "1.0.5",
+  "description": "BitcoinQuark Messages for Bitcore",
   "author": "BitPay <dev@bitpay.com>",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,14 @@
     "coverage": "gulp coverage",
     "build": "gulp"
   },
+  "contributors": [
+    {
+      "name": "Lorenzo Bianco",
+      "email": "lorenzo@bitcoinquark.org"
+	}
+  ],  
   "keywords": [
+    "quark",
     "bitcoin",
     "bitcore",
     "btc",
@@ -20,13 +27,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore-message.git"
+    "url": "https://github.com/bitcoinquark/bitcore-message.git"
   },
   "dependencies": {
-    "bitcore-lib": "^0.13.7"
+    "btq-bitcore-lib": "^0.14.1"
   },
   "devDependencies": {
-    "bitcore-build": "bitpay/bitcore-build",
+    "btq-bitcore-build": "^0.9.1",
     "brfs": "^1.3.0",
     "chai": "~1.10.0",
     "gulp": "^3.8.10"
