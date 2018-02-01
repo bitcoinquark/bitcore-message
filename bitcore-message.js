@@ -2,7 +2,7 @@ require=(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof requ
 (function (Buffer){
 'use strict';
 
-var bitcore = require('bitcore-lib');
+var bitcore = require('btq-bitcore-lib');
 var _ = bitcore.deps._;
 var PrivateKey = bitcore.PrivateKey;
 var PublicKey = bitcore.PublicKey;
@@ -2173,8 +2173,8 @@ module.exports = Array.isArray || function (arr) {
 };
 
 },{}],"bitcore-message":[function(require,module,exports){
-var bitcore = require('bitcore-lib');
+var bitcore = require('btq-bitcore-lib');
 bitcore.Message = require('./lib/message');
 
 module.exports = bitcore.Message;
-},{"./lib/message":1,"bitcore-lib":"bitcore-lib"}]},{},[]);
+},{"./lib/message":1,"btq-bitcore-lib":"btq-bitcore-lib"}]},{},[]);
