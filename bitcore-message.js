@@ -170,7 +170,7 @@ Message.prototype.inspect = function() {
 module.exports = Message;
 
 }).call(this,require("buffer").Buffer)
-},{"bitcore-lib":"bitcore-lib","buffer":3}],2:[function(require,module,exports){
+},{"btq-bitcore-lib":"btq-bitcore-lib","buffer":3}],2:[function(require,module,exports){
 'use strict'
 
 exports.byteLength = byteLength
